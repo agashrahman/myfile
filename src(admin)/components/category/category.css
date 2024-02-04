@@ -1,0 +1,45 @@
+.button{
+    width: 30%;
+    background-color: rgb(32, 177, 235);
+    color: aliceblue;
+    border-style: none;
+    height: 90%;
+}
+.container-fluid-category{
+    overflow-y: scroll;
+    max-height: 800px;
+    scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-face-color: transparent; /* For WebKit browsers (Chrome, Safari) */
+  scrollbar-track-color: transparent;
+}
+
+.form-category{
+    background-color: rgb(252, 252, 255);
+}
+
+.custom-category {
+    color: #ffffff;
+    background-color: #19867f;
+  }
+  .cat_table-container{
+  max-height: 10px;
+  overflow-y: auto;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-face-color: transparent; /* For WebKit browsers (Chrome, Safari) */
+  scrollbar-track-color: transparent;
+  }
+  .cat_overall{
+    margin-top: 80px;
+  }
+  .subcat_table-container{
+    width: 1280px;
+    margin-bottom: 100px;
+  }
+  .cat_table-container{
+    width: 1280px;
+    max-height: 400px;
+  }

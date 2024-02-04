@@ -1,0 +1,325 @@
+.studentsignupsDiv {
+   
+   
+   
+  height: 100vh;
+  width: 100%;
+
+}
+.gender{
+
+  height: 100%;
+ color: #7b7a7a;
+  border: 1px solid #ccc;
+  padding:5px;
+}
+
+.containerrr {
+  width: 450px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+ 
+}
+.h6text{
+  font-family: initial;
+}
+.aget{
+  color: rgb(253, 252, 252);
+}
+.aget:hover {
+color: #0826e7;
+}
+.BTNSIGN{
+  background: linear-gradient(to right,#1BA098 10%,#a6eee9) no-repeat;
+}
+.containerrr:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.textt {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dataaa {
+  margin-bottom: 20px;
+}
+.learnerfname{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+.learnerfname:focus{
+  outline: none;
+  border-color: #4caf50;
+}
+.learnerlname{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+.learnerlname:focus{
+  outline: none;
+  border-color: #4caf50;
+}
+.learnerphone{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+.learnerphone:focus{
+  outline: none;
+  border-color: #4caf50;
+}
+.learnerdob{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+.learnerdob:focus{
+  outline: none;
+  border-color: #4caf50;
+}
+.learnerbg{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+.learnerbg:focus{
+  outline: none;
+  border-color: #4caf50;
+}
+.learnercity{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+.learnercity:focus{
+  outline: none;
+  border-color: #4caf50;
+}
+.learnernational{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+.learnernational:focus{
+  outline: none;
+  border-color: #4caf50;
+}
+.learnerage{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+.learnerage:focus{
+  outline: none;
+  border-color: #4caf50;
+}
+.learnerreg{
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+transition: border-color 0.3s ease;
+}
+.learnerreg:focus{
+outline: none;
+border-color: #4caf50;
+}
+.learnerbatch{
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+transition: border-color 0.3s ease;
+}
+.learnerbatch:focus{
+outline: none;
+border-color: #4caf50;
+}
+.learneremail{
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+transition: border-color 0.3s ease;
+}
+.learneremail:focus{
+outline: none;
+border-color: #4caf50;
+}
+.learnerpassword{
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+transition: border-color 0.3s ease;
+}
+.learnerpassword:focus{
+outline: none;
+border-color: #4caf50;
+}
+
+
+.domain:focus{
+  outline: none;
+  border-color: #4caf50;
+}
+.Slot:focus{
+  outline: none;
+  border-color: #4caf50;
+}
+
+.terms-checkboxxx {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terms-checkboxxx input {
+  margin-right: 10px;
+}
+
+.btnn {
+  position: relative;
+}
+
+.innerrr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #4caf50, #45a049);
+  z-index: -1;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btnn:hover .innerrr {
+  opacity: 1;
+}
+
+.BTNSIGN {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #4caf50;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.BTNSIGN:hover {
+  background-color: #45a049;
+}
+
+.signup-linkkk {
+  text-align: center;
+  margin-top: 20px;
+}
+#terms{
+  border: 1px solid silver;
+  display: flex;
+  position: relative;
+  top: 19px;
+  margin-left: 45px;
+}
+.span{
+  position: relative;
+  left:-40px;
+}
+.signup-linkkk a {
+  color: #1BA098 ;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.signup-linkkk a:hover {
+  color: #1BA098;
+}
+.termm{
+  text-decoration: none;
+  margin-left: 5px;
+}
+.batch{
+  width: 70px;
+}
+.domain{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+  color:#666464;
+}
+.subdomain{
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+  color:#666464;
+}
+.Slot{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+  color:#666464;
+}
+.imgticktraq{
+width:10px;
+}
+.imgticktraq1{
+width:150px;
+
+}
+
+.tick {
+margin-left: 6%;
+}
+.h1get{
+color:black;
+}
+.male{
+color:black;
+}
+.termss{
+color: black;
+margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+.studentsignupsDiv{
+  background-color:#a6eee9 ;
+  height: fit-content;
+}
+}

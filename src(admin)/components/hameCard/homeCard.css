@@ -1,0 +1,165 @@
+
+
+.home-container {
+  background:#fff;
+  width: 500px;
+  height: 650px;
+  padding: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  position: relative;
+  left: 350px;
+  bottom: -10px;
+  
+ 
+  overflow-y: hidden;
+}
+
+.mainCARD {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mainCARD:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mainCardTit {
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.mainCardTxt {
+  color: #495057;
+  transition: color 0.3s ease;
+}
+
+.mainCardImg {
+  max-height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.mainCARD:hover .mainCardImg {
+  transform: scale(1.1);
+}
+.btn-outline-primary{
+  color: #1BA098;
+  border-color: #1BA098;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background: #caf0ee;
+}
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #495057;
+}
+.mainSECONDARY {
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.mainSECONDARY:hover {
+  color: #495057;
+}
+.mainCardImg {
+  max-height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.mainCARD:hover .mainCardImg {
+  transform: scale(1.1);
+}
+
+.security {
+  height: 100px;
+  color: #ffffff;
+  transition: background 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 100px;
+  }
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #1BA098;
+  box-shadow: 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+.btnnn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #caf0ee;
+  color: #131313;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btnnn:hover {
+  background-color: #1BA098;
+}
+
+.btnnn:active {
+  animation: pulse 0.3s ease-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.Work{
+  text-decoration: none;
+  color: #1BA098;
+}
+.Work:hover{
+  color: #1BA098;
+}
+.mainTitle {
+  color: #4d5453; 
+  font-weight: lighter;
+}
+.mainTitle .fa-table {
+  margin-right: 15px; 
+}
+.mainTitle .fa-clock {
+  margin-right: 15px; 
+}
+
+
+
+

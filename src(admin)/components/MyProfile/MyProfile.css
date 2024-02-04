@@ -1,0 +1,11 @@
+/* Add your custom styling here */
+.profile-container {
+    margin-top: 20px;
+  }
+  
+  .profile-image {
+    width: 100%;
+    border-radius: 50%;
+    /* Add additional styling as needed */
+  }
+  

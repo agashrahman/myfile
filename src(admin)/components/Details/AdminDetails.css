@@ -1,0 +1,18 @@
+.student-table{
+  width: 700px;
+}
+.admain-div{
+  width: 80%;
+  margin-left: 60PX;
+  margin-top: 120px;
+
+}
+.ad_table-container {
+  max-height: 600px; 
+  overflow-y: auto; 
+  width: 1200px;
+  overflow-x: hidden;
+}
+.ad_table-container::-webkit-scrollbar {
+  width: 12px; 
+}

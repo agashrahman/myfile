@@ -1,0 +1,25 @@
+.button{
+    width: 30%;
+    background-color: rgb(32, 177, 235);
+    color: aliceblue;
+    border-style: none;
+    height: 90%;
+}
+
+
+.form-branch{
+    background-color: rgb(252, 252, 255);
+}
+.container-fluid-branch{
+
+    
+    height: 100vh;
+}
+.custom-branch {
+    color: #ffffff;
+    background-color: #19867f;
+  }
+  .batch-div{
+    margin-left: 150px;
+  }
+  

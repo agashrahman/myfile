@@ -1,0 +1,33 @@
+.button-mode{
+    width: 30%;
+    background-color: rgb(32, 177, 235);
+    color: aliceblue;
+    border-style: none;
+    height: 90%;
+}
+
+
+.form-mode{
+    background-color: rgb(252, 252, 255);
+    
+}
+.container-fluid-mode{  
+  margin-top: 100px;
+    height: 100vh;
+}
+.custom-mode {
+    color: #ffffff;
+    background-color: #19867f;
+  }
+  .mode-card{
+    margin-left: 10px;
+  }
+  .mode_table-container{
+    max-height: 380px;
+    overflow-y: auto;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-face-color: transparent; /* For WebKit browsers (Chrome, Safari) */
+    scrollbar-track-color: transparent;
+  }

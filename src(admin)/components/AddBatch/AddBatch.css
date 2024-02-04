@@ -1,0 +1,32 @@
+.button{
+  width: 30%;
+  background-color: rgb(32, 177, 235);
+  color: aliceblue;
+  border-style: none;
+  height: 90%;
+}
+
+
+
+.container-fluid-branch{
+
+  margin-top: 40px;
+  height: 100vh;
+}
+.custom-branch {
+  color: #ffffff;
+  background-color: #19867f;
+}
+.batch_table-container {
+  max-height: 420px; 
+  overflow-y: auto; 
+  width: 1200px;
+  overflow-x: hidden;
+}
+.batch_table-container::-webkit-scrollbar {
+  width: 12px;
+}
+.batchcontainer{
+  margin-left: 25px;
+  margin-bottom: 40px;
+}
