@@ -1,0 +1,35 @@
+.teamimg1 {
+  width: 300px;
+  height: 280px;
+}
+.teamimg2 {
+  width: 320px;
+  height: 250px;
+}
+
+.body5 {
+  background-color: #a6eee9;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.teammain {
+  background-color: white;
+  width: 100%;
+  max-width: 980px;
+  margin: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .teammain {
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+  }
+.teamdiv{
+  margin: 10px;
+    padding: 10px;
+    height: 100%;
+}
+}

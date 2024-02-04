@@ -1,0 +1,42 @@
+.streamimg1{
+  width: 300px;
+  height: 280px;
+margin-right: 30px;
+}
+.streamimg2{
+  width: 320px;
+  height: 250px;
+  margin-right: 30px;
+}
+
+.body6 {
+  background-color: #a6eee9;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.streamtext{
+  color:black
+}
+
+.streamMain {
+  background-color: white;
+  width: 100%;
+  max-width: 980px;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+  .streamMain {
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+  }
+.streamdiv{
+  margin: 10px;
+    padding: 10px;
+    height: 100%;
+}
+}

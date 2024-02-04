@@ -1,0 +1,125 @@
+.milestoneDiv {
+    background: #c3efec; 
+    padding: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
+    height:100vh;
+    overflow-y: auto;
+  }
+  .milestoneDiv::-webkit-scrollbar {
+    width: 0; 
+    background: transparent;
+  }
+  .milestoneTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    overflow: hidden; 
+  }
+  
+  .milestoneTable th, .milestoneTable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .milestoneBTN {
+    background-color: #1BA098;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .milestoneBTN:hover {
+    background-color: #1e6762;
+    transform: scale(1.05); 
+  }
+  .milestoneTable {
+    animation: fadeIn 1s ease;
+  }
+  select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .react-datepicker {
+    font-size: 14px;
+  }
+  
+  .react-datepicker__input-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .milestoneTable tbody tr:hover .milestoneEditBTN {
+    background-color: #ddd;
+    color: #333;
+  }
+@keyframes colorPulse {
+    0% {
+      color: #1BA098;
+    }
+    50% {
+      color: #1BA098;
+    }
+    100% {
+      color: #1BA098;
+    }
+  }
+.react-datepicker {
+    font-size: 14px;
+    border: 1px solid #1BA098; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  @keyframes inputContainerSlide {
+    0% {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .react-datepicker__input-container {
+    position: relative;
+  }
+  
+  .react-datepicker__input-container input {
+    padding: 10px;
+    border: 1px solid #1BA098;
+    border-radius: 5px;
+    animation: inputContainerSlide 0.5s ease;
+  }
+  .react-datepicker__input-container input:focus {
+    outline: none;
+    border-color: #1e6762;
+  }
+  .react-datepicker-popper.show-popover {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .react-datepicker__day--today {
+    color: #fff; 
+    background-color: #1BA098; 
+  }
+.react-datepicker__day--today:hover {
+    background-color: #34847f; 
+  }
+  .react-datepicker__day:hover {
+    background-color: #9fe7e2; 
+    color: black; 
+  }
+  .milestone_Table{
+    max-height: 500px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }

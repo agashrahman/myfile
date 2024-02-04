@@ -1,0 +1,22 @@
+.CreateProjectbutton{
+    width: 30%;
+    background-color: #178a83;
+    color: aliceblue;
+    border-style: none;
+    height: 90%;
+}
+.CreateProjectbutton:hover{
+    width: 30%;
+    background-color:#0b3934;
+    color: aliceblue;
+    border-style: none;
+    height: 90%;
+}
+
+.form-control{
+    background-color: rgb(252, 252, 255);
+}
+.container-fluid_project{
+    background: #caf0ee;
+    height: 100vh;
+}

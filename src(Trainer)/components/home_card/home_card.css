@@ -1,0 +1,14 @@
+.usecase{
+    opacity: 50%;
+    
+}
+.card_btn{
+    opacity: 50%;
+    background-color: white;
+    border-color: gray;
+    border-radius: 5px;
+}
+.card_btn:hover{
+    border-color:#0d6efd;
+    color:#0d6efd;
+}

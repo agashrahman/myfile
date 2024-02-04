@@ -1,0 +1,297 @@
+.parentDiv{
+    background-color:white;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.mainDiv{
+    background-color:white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.headTrack{
+    color: #1BA098;
+}
+.mainNavBar{
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.1);
+}
+.navBar_btn:hover{
+    border-color:#1BA098;
+    background-color: #1BA098;
+    color:white;
+    
+}
+.TrackingBtnHome{
+    border: none;
+    background-color:#178A83;
+    height: 50px;
+    box-shadow: 50px;
+    border-bottom: 4px solid #178A83;
+
+}
+.TrackingBtnHome:hover{
+    background-color: #1BA098;
+    color: white;
+}
+.nav-item{
+    list-style-type: none;
+}
+.card_icon{
+    color: #1BA098;
+}
+/* .VideoDiv{
+    height: 500px;
+    width: 1000px;
+    object-fit: cover;
+} */
+@media only screen and (max-width: 650px)
+{.content{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    font-size: 10px;
+    line-height: 1.5;
+}}
+@media only screen and (max-width: 650px)
+{.heading{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 1.5;
+}}
+/* @media only screen and (max-width: 650px)
+{.VideoDiv{
+    margin-right: auto;
+    margin-left: auto;
+    width: 30vh;
+}} */
+.VideoDiv{
+    text-align: center;
+    background-image: url(https://clockify.me/assets/images/time-tracker-screenshot.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width:576px){
+    
+}
+.usecase{
+    opacity: 50%;
+    
+}
+.card_btn{
+    opacity: 50%;
+    background-color: white;
+    border-color: gray;
+    border-radius: 5px;
+}
+.card_btn:hover{
+    border-color:#1BA098;
+    color:#1BA098;
+}
+/* .footDiv{
+    height: 65vh;
+    background-color: #F7FCFF;
+} */
+.companyLogin>p{
+    font-size: 13px;
+    color: gray;
+}
+.companyLogin>ul>a{
+    font-size: 13px;
+    color: gray;
+}
+
+.accountBtn{
+    margin-top: 50px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background:#178A83;
+    border-bottom: 4px solid #178A83;
+    width: 285px;
+    height: 56px;
+    color: #fff;
+    padding-top: 17px;
+    outline: none;
+    border: none;
+}
+.accountBtn:hover{
+    background-color: #1BA098;
+    color: white;
+}
+
+.productDiv>ul>a{
+ text-decoration: none;   
+ color: gray;
+ font-size: 15px;
+
+}
+.productDiv>ul>a:hover{
+    color: #1BA098;
+}
+.footMainDiv{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.companyDiv>ul>a{
+    text-decoration: none; 
+    color: gray;  
+    font-size: 15px;
+   }
+   .companyDiv>ul>a:hover{
+    color: #1BA098;
+   }
+
+.solutionDiv>ul>select{
+    border: none;
+    outline: none;
+    font-size: 8px;
+    color: gray;
+    
+}
+.solutionDiv>ul:hover{
+    color: #1BA098;
+    cursor: pointer;
+}
+
+.solutionDiv>ul{
+    text-decoration: none; 
+    color: gray;
+    font-size: 15px;
+}
+.supportDiv>ul>a{
+    text-decoration: none; 
+    color: gray;
+    font-size: 15px;
+}
+.supportDiv>ul>a:hover{
+    color: #1BA098;
+}
+.pumbleImg{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+.plakyImg{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+.creditSection>a,p{
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+}
+.creditSection>a:hover{
+    color:#0277BD;
+}
+.logoSection>a{
+    color: #1BA098;
+}
+.dropdown>button,ul>li{
+    color: gray;
+}
+.dropdown:hover{
+    color: #1BA098;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+
+}
+.dropdownDiv{
+    background-color: rgb(225, 241, 247);
+    width: 200px;
+    margin-left: 130px;
+    margin-bottom: 300px;
+    margin-top: -150px;
+}
+.dropdownDiv>div>h6,p,h6>a,p>a{
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+    font-size: 15px;
+    height: 10px;
+}
+
+.dropdownDiv>div>h6,p,h6>a:hover,p>a:hover{
+    text-decoration: none;
+    color:#1BA098;
+    
+}
+@media only screen and (max-width: 767px) {
+    .dropdownDiv {
+        width: 90%;
+    }
+    .dropdownDiv>div>h6,p,h6>a,p>a{
+        font-size: 11px;
+    }
+}
+.tracking_btn{
+    background: none;
+    border-color:  #1BA098;
+    color: #1BA098;
+    width: 100px;
+}
+.tracking_btn:hover{
+    background-color: #1BA098;
+    color: white;
+}
+.timekeeping{
+    margin-left: 60px;
+   
+  }
+  .report{
+    margin-left: 90px;
+  }
+  .timekeeping>a:hover{
+  color: rgb(21, 203, 236);
+  
+  }
+  .timekeeping>a{
+    color: black;
+    }
+    .img-fluid {
+      margin-right: auto;
+      margin-left: auto;
+      height: auto;
+      -o-object-fit: contain;
+      object-fit: contain;
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2;
+      margin: 20px auto;
+      width: 100%;
+    }
+  
+    @media (max-width: 576px) { 
+      .img-fluid {
+        width: 100%;
+      }
+    }
+    .deviceBTN{
+    border-color:#1BA098 ;
+    }
+    .signupDTL{
+        color:black ;
+    }
+    .signupDTL:hover{
+        color:#1BA098 ;
+    }
+    .cards_icon{
+       color: black;
+    }
+    .cards_icon:hover{
+        color: #1BA098;
+     }
+     .reportTXT{
+        color: black;
+     }
+     .reportTXT:hover{
+        color: #1BA098;
+     }
+     .reportsMainDiv{
+        overflow-x: hidden;
+        margin: 0px;
+     }
+     

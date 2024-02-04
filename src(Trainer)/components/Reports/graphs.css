@@ -1,0 +1,86 @@
+/* .lineHEAD {
+    color: #333;
+   }
+canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  canvas {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes hoverEffect {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05);
+    }
+  }
+  canvas {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    transition: transform 0.3s ease-in-out;
+  }
+  &:hover {
+    animation: hoverEffect 0.3s ease-in-out forwards;
+  }
+  .legend {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+   @keyframes pulsate {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes fadeIns {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  canvas {
+    opacity: 0;
+    animation: fadeIns 1s ease-in-out forwards;
+  }
+  canvas:hover {
+    box-shadow: 0 0 20px rgba(119, 223, 223, 0.952);
+    transition: box-shadow 0.3s ease-in-out;
+  } */

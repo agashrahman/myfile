@@ -1,0 +1,265 @@
+.containero{
+  background-color: #c3efec;
+    height: 100vh;
+    width: 98.5%;
+  
+}
+
+.attendance-container {
+    max-width: 1400px;
+    width: 1150px;
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 40px; 
+    background-color: rgb(239, 247, 251);
+ 
+  }
+.headingAtt{
+    text-align: center;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+    border: none;
+    background-size: 300% 300%;
+    color:black;
+   
+  }
+  .date-picker-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .start-date-picker,
+  .select-date-picker {
+    flex: 1;
+  }
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .holiday-button-container,
+  .update-button-container {
+    margin-left: 10px;
+  }
+  .mark-holiday,
+  .remove-holiday,
+  .update-button {
+    background-color: #1BA098;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .mark-holiday:hover,
+  .remove-holiday:hover,
+  .update-button:hover {
+    background-color: #1d978f;
+  }
+  .attendance-table {
+    width: 50%; 
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  .attendance-table th,
+  .attendance-table td {
+    
+    padding: 5px; 
+    text-align: left;
+    height: 10px; 
+  }
+  .attendance-radio-group {
+    display: flex;
+    align-items: center;
+  }
+  .radio-label {
+    margin-right: 20px;
+  }
+  .radio-label input {
+    margin-right: 5px;
+  }
+  .total-days {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .attendance-radio-group {
+    display: flex;
+    align-items: center;
+  }
+  .radio-label {
+    margin-right: 20px;
+  }
+  .radio-label input {
+    margin-right: 5px;
+  }
+  .attendance-table {
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    /* border-style:double; */
+  }
+  .attendance-table th,
+  .attendance-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    height: 40px;
+  }
+  .attendance-radio-group {
+    display: flex;
+    align-items: center;
+  }
+  .radio-label {
+    margin-right: 20px;
+  }
+  .radio-label input {
+    margin-right: 5px;
+    vertical-align: middle; 
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes scale {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes colorPulse {
+    0% {
+      background-color: rgba(255, 255, 255, .075);
+    }
+    50% {
+      background-color: rgba(255, 255, 255, .2);
+    }
+    100% {
+      background-color: rgba(255, 255, 255, .075);
+    }
+  }
+
+.batch-dropdown {
+    animation: fadeIn 0.5s ease-out;
+    animation: slideInTop 0.5s ease-in-out;
+  }
+  
+  .start-date-picker {
+    animation: slideInTop 0.5s ease-in-out;
+  }
+  .label{
+    animation: slideInTop 0.5s ease-in-out;
+  }
+  .select-date-picker{
+    animation: slideInTop 0.5s ease-in-out;
+  }
+  .holiday-button-container {
+    animation: colorPulse 1s infinite;
+  }
+  .attendance-table {
+    animation: fadeInDown 1s ease-out;
+  }
+  .total-days {
+    animation: fadeInRight 1s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInTop {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes colorPulse {
+    0% {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    50% {
+      background-color: rgba(255, 255, 255, 1);
+    }
+    100% {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .react-datepicker__day--current {
+    background-color: #8ceae3; 
+    color: #000; 
+  }
+  .react-datepicker__day--current:hover {
+    background-color: #69d3cc;
+  }
+.react-datepicker__day--selected {
+    background-color: #8ceae3; 
+    color: #000;
+  }
+  .react-datepicker__day--selected:hover {
+    background-color: #69d3cc; 
+  }
+  .attendance_divtable{
+    max-height: 410px;
+    margin-top: 10px;
+    overflow-y: scroll;
+  }
